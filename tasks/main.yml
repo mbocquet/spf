@@ -1,0 +1,19 @@
+---
+# tasks file for spf
+- name: "policyd-spf.conf"
+  packages:
+    name: '{{ item }}'
+  with_items:
+    - '{{ spf_packages }}'
+  tags:
+    - spf
+    - packages
+
+- name: "policyd-spf.conf"
+  template:
+    src: 'policyd-spf.conf.j2'
+    dest: '{{ spf_policyd_config_file }}'
+  tags:
+    - spf
+    - conf
+...

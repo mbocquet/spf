@@ -1,0 +1,17 @@
+---
+# defaults file for spf
+spf_packages:
+  - 'postfix-policyd-spf-python'
+
+spf_policyd_config_file: '/etc/postfix-policyd-spf-python/policyd-spf.conf'
+
+# List of ip address to whitelist
+# spf_whitelist:
+#   - 90.91.92.93
+#   - 94.95.96.97
+
+# List of domainnames to whitelist
+# spf_domain_whitelist:
+#   - example.com
+#   - foo.org
+...

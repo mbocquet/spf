@@ -1,4 +1,4 @@
-'spf'. Ansible role to install and configure Syncthing.
+'spf'. Ansible role to install and configure SPF (Sender Policy Framework).
 
 Copyright © 2018 Mathias Bocquet (mbocquet@sekoya.org)
 

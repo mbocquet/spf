@@ -1,7 +1,7 @@
 ---
 # tasks file for spf
-- name: "policyd-spf.conf"
-  packages:
+- name: "packages"
+  package:
     name: '{{ item }}'
   with_items:
     - '{{ spf_packages }}'

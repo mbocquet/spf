@@ -13,6 +13,7 @@
   template:
     src: 'policyd-spf.conf.j2'
     dest: '{{ spf_policyd_config_file }}'
+  notify: restart postfix
   tags:
     - spf
     - conf

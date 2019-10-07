@@ -1,6 +1,6 @@
 'spf'. Ansible role to install and configure SPF (Sender Policy Framework).
 
-Copyright © 2018 Mathias Bocquet (mbocquet@sekoya.org)
+Copyright © 2018-2019 Mathias Bocquet (mbocquet@sekoya.org)
 
 This file is part of 'spf' Ansible role.
 

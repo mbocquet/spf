@@ -1,13 +1,12 @@
 ---
 # tasks file for spf
-- name: "packages"
+- name: package
   package:
-    name: '{{ item }}'
-  with_items:
-    - '{{ spf_packages }}'
+    name: '{{ spf_packages }}'
+    force_apt_get: yes
   tags:
     - spf
-    - packages
+    - package
 
 - name: "policyd-spf.conf"
   template:

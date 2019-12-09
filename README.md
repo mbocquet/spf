@@ -1,7 +1,7 @@
 # spf
 
-Ansible role to install and configure SPF (Sender Policy
-Framework) for Postfix.
+Ansible role to install and configure SPF (Sender Policy Framework) for
+Postfix.
 
 ## Requirements
 

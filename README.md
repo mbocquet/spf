@@ -1,6 +1,6 @@
 # spf
 
-An Ansible role to install and configure SPF (Sender Policy
+Ansible role to install and configure SPF (Sender Policy
 Framework) for Postfix.
 
 ## Requirements
@@ -17,7 +17,7 @@ You should run a Postfix instance on the host to use this role.
 
 ## Install this role as submodule of an existing GIT repository
 
-`git submodule add https://github.com/mbocquet/spf.git roles/spf`
+`git submodule add https://git.sekoya.org/mb/spf.git roles/spf`
 
 ## Example Playbook
 

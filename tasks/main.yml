@@ -3,7 +3,6 @@
 - name: package
   package:
     name: '{{ spf_packages }}'
-    force_apt_get: yes
   tags:
     - spf
     - package
